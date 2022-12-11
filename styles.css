@@ -22,7 +22,7 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: auto;
     height: 100vh;
 }
 
@@ -32,11 +32,13 @@ body {
 
 .head_empty_space {
     grid-row: 1;
+    height: 1px;
 }
 
 .weirdHeader {
     text-align: center;
     font-weight: 900;
+    line-height: 0.7em;
 }
 
 .weirdHeader1 {
@@ -62,11 +64,15 @@ body {
 }
 
 .afterCounter_empty_space {
-    /* grid-row: 7; */
+    grid-row: 6;
     height: 1px;
 }
 
 .counter2 {
-    grid-row: 6;
+    grid-row: 7;
 }
 
+.afterCounter_empty_space {
+    grid-row: 8;
+    height: 1px;
+}
