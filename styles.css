@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Times New Roman', Times, serif;
-    /* font-size: 13vw; */
     font-size: min(13vw, 20vh);
 }
 
@@ -32,7 +31,7 @@ body {
 }
 
 .head_empty_space {
-    grid-row: 1/2;
+    grid-row: 1;
 }
 
 .weirdHeader {
@@ -41,15 +40,15 @@ body {
 }
 
 .weirdHeader1 {
-    grid-row: 3;
+    grid-row: 2;
 }
 
 .weirdHeader2 {
-    grid-row: 4;
+    grid-row: 3;
 }
 
 .afterHeader_empty_space {
-    grid-row: 5;
+    grid-row: 4;
 }
 
 .counter {
@@ -59,14 +58,15 @@ body {
 }
 
 .counter1 {
-    grid-row: 6;
+    grid-row: 5;
 }
 
 .afterCounter_empty_space {
-    grid-row: 7;
+    /* grid-row: 7; */
+    height: 1px;
 }
 
 .counter2 {
-    grid-row: 8;
+    grid-row: 6;
 }
 
